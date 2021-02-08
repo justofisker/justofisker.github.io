@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+
+.content {
+    background-color: black;
+    color: #00FF00;
+    font-family: 'JetBrains Mono', monospace;
+}
+@keyframes cursor-animation {
+    0% { visibility: visible; }
+    50% { visibility: hidden; }
+}
+.cursor {
+    animation:2s cursor-animation infinite step-end;
+}
